@@ -200,5 +200,57 @@
 //	return 0;
 //}
 //
+//#include<stdio.h>
+//int main()
+//{
+//	int i = 0;
+//	int j = 0;
+//
+//	for (i = 0; i < 5; i++)
+//	{
+//		for (j = i; j >= 0; j--)
+//			printf("$");
+//		printf("\n");
+//	}
+//	return 0;
+//
+//}
+
+
+///*
+// È; 6.16-3
+//*/
+//
+//#include<stdio.h>
+//int main()
+//{
+//	int i,j;
+//	char lets[27] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+//	for (j =0; j<6; j++)
+//	{
+//		for(i=0;i<=j;i++)
+//			printf("%c", lets[-i+5]);
+//		printf("\n");
+//	}
+//	return 0;
+//}
+
+
+//////  È 16.6-4
+//#include<stdio.h>
+//int  main()
+//{
+//	int i, j;
+//	char lets[27] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+//	for (i = 0; i < 6; i++)
+//	{
+//		for (j = 0; j <= i; j++)
+//			//printf("%c", lets[j]);
+//			printf("%c", lets[i+j]);
+//			
+//		printf("\n");
+//	}
 //
 //
+//	return 0;
+//}
